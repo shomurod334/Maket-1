@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3B3937;
+    padding: 30px 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.vektor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vektor .logo {
+    margin-right: 134px;
+}
+
+.vektor ul {
+    display: flex;
+    align-items: center;
+}
+
+.vektor ul li {
+    margin-left: 36px;
+}
+
+.vektor ul li a {
+    color: var(--ffffff, #FFF);
+    text-align: right;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    transition: 0.5s;
+}
+
+.vektor ul li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 145, 0);
+    display: block;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.vektor nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vektor h6 {
+    color: var(--ffd-6-a-8, #FFD6A8);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.vektor h6:hover {
+    color: #ffffff99;
+}
+
+.vektor p {
+    color: var(--ffd-6-a-8, #FFD6A8);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: PermianSerifTypeface;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.vektor p:hover {
+    color: white;
+}
+
+.vektor button {
+    width: 120px;
+    height: 40px;
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.78px;
+    text-transform: uppercase;
+    background-color: #A9845C;
+    border: none;
+    cursor: pointer;
+}
+
+.vektor button:hover {
+    background: #926341;
+}
+
+.onas {
+    align-items: center;
+}
+
+.onas h1 {
+    margin-top: 114px;
+    margin-bottom: 70px;
+    font-family: PermianSerifTypeface;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.64px;
+    color: var(--3-b-3937, #3B3937);
+    font-family: PermianSerifTypeface;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.64px
+}
+
+.onas h2 {
+    margin-top: 70px;
+    color: var(--3-b-3937, #3B3937);
+    font-family: Gilroy;
+    margin-bottom: 35px;
+    font-family: PermianSerifTypeface;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+}
+
+.onas .p1 {
+    margin-bottom: 35px;
+}
+
+.onas .p2 {
+    margin-bottom: 35px;
+}
+
+.onas h3 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color: var(--3-b-3937, #3B3937);
+    font-family: PermianSerifTypeface;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.72px;
+}
+
+.onas .p3 {
+    margin-bottom: 70px;
+}
+
+.onas h4 {
+    margin-bottom: 25px;
+    color: var(--3-b-3937, #3B3937);
+    font-family: PermianSerifTypeface;
+    font-size: 25px;
+
+}
+
+.onas .p4 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.onas-1 ul li {
+    color: var(--3-b-3937, #3B3937);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.onas .jasur-1 {
+    margin-top: 70px;
+    align-items: center;
+
+}
+
+.onas h5 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.p6 {
+    margin-bottom: 30px;
+}
+
+.p7 {
+    margin-bottom: 70px;
+}
+
+.hh4 {
+    color: var(--3-b-3937, #3B3937);
+    font-family: PermianSerifTypeface;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.72px;
+}
+
+.p8 {
+    margin-bottom: 40px;
+}

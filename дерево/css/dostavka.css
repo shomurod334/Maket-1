@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.oplata img {
+    margin-left: 160px;
+}
+
+.oplata h4 {
+    color: var(--3-b-3937, #3B3937);
+    font-family: Gilroy;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.oplata h5{
+    color: var(--3-b-3937, #3B3937);
+font-family: Gilroy;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+margin-left: 160px;
+margin-top: 40px;
+}
+.oplata p{
+    color: var(--3-b-3937, #3B3937);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+margin-top: 40px;
+margin-left: 160px;
+margin-bottom: 50px;
+}
+.dostavka h1{
+    color: var(--3-b-3937, #3B3937);
+font-family: PermianSerifTypeface;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+letter-spacing: -0.64px;
+margin-left: 160px;
+margin-top: 100px;
+margin-bottom: 40px;
+}

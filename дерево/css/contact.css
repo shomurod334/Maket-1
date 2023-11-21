@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3B3937;
+    padding: 30px 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.vektor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vektor .logo {
+    margin-right: 134px;
+}
+
+.vektor ul {
+    display: flex;
+    align-items: center;
+}
+
+.vektor ul li {
+    margin-left: 36px;
+}
+
+.vektor ul li a {
+    color: var(--ffffff, #FFF);
+    text-align: right;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    transition: 0.5s;
+}
+
+.vektor ul li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 145, 0);
+    display: block;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.vektor nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.vektor h6 {
+    color: var(--ffd-6-a-8, #FFD6A8);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.vektor h6:hover {
+    color: #ffffff99;
+}
+
+.vektor p {
+    color: var(--ffd-6-a-8, #FFD6A8);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: PermianSerifTypeface;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.vektor p:hover {
+    color: white;
+}
+
+.vektor button {
+    width: 120px;
+    height: 40px;
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.78px;
+    text-transform: uppercase;
+    background-color: #A9845C;
+    border: none;
+    cursor: pointer;
+}
+
+.vektor button:hover {
+    background: #926341;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+}
+
+.top h4 {
+    color: #B1B0AF;
+    font-size: 12px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 16.80px;
+    word-wrap: break-word
+}
+
+.top p {
+    color: #B1B0AF;
+    font-size: 12px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 16.80px;
+
+}
+
+.h-4 {
+    width: 306px;
+    height: 64px;
+}
+
+.h-4 h4 {
+    color: #3B3937;
+    font-size: 64px;
+    font-family: PermianSerifTypeface;
+    font-weight: 700;
+    line-height: 64px;
+    margin-top: 17px;
+}
+
+.left {
+    margin-top: 32px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(243, 240, 238, 1);
+}
+
+.n-1 {
+    padding-top: 64px;
+    padding-left: 70px;
+    width: 370px;
+    height: 86px;
+}
+
+.n-2 {
+    padding-top: 98px;
+    width: 360px;
+    height: 40px;
+    padding-left: 70px;
+}
+
+.n-3 {
+    width: 351px;
+    height: 44px;
+    padding-top: 98px;
+    padding-left: 70px;
+}
+
+.h-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-5 h5 {
+    color: #B14101;
+    font-size: 18px;
+    font-family: Gilroy;
+    font-weight: 700;
+    line-height: 21.60px;
+    letter-spacing: 0.18px;
+    display: flex;
+}
+
+.h-5 h5:hover {
+    cursor: pointer;
+}
+
+.n-4 {
+    width: 220px;
+    height: 44px;
+    padding-top: 98px;
+    padding-left: 70px;
+}
+
+.n-4 h5 {
+    color: #B14101;
+    font-size: 18px;
+    font-family: Gilroy;
+    font-weight: 700;
+    line-height: 21.60px;
+    letter-spacing: 0.18px;
+}
+
+.n-4 h5:hover {
+    cursor: pointer;
+}
+
+.left p {
+    color: #3B3937;
+    font-size: 13px;
+    font-family: Gilroy;
+    font-weight: 400;
+    line-height: 16.90px;
+}
+
+.left h4 {
+    color: #3B3937;
+    font-size: 18px;
+    font-family: Gilroy;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.18px;
+}
+
+.right {
+    margin-top: -40px;
+    width: 720px;
+    height: 570px;
+    background: url(../img/lokasiya.png) no-repeat center / cover;
+}
+
+.right p {
+    margin-top: 171px;
+    margin-left: 289px;
+}
+
+.right img {
+    margin-top: 291px;
+    margin-left: 291px;
+}
+
+.bottom {
+    width: 1280px;
+    height: 450px;
+    background-color: rgba(243, 240, 238, 1);
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-1 h4 {
+    color: #3B3937;
+    font-size: 64px;
+    font-family: PermianSerifTypeface;
+    font-weight: 700;
+    line-height: 64px;
+    padding-top: 70px;
+    padding-left: 70px;
+    width: 333px;
+    height: 128px;
+}
+
+.left-1 p {
+    color: #3B3937;
+    font-size: 22px;
+    font-family: Gilroy;
+    font-weight: 500;
+    line-height: 30.80px;
+    width: 354px;
+    height: 93px;
+    margin-top: 94px;
+    margin-left: 70px;
+}
+
+.right-1 {
+    margin-top: 80px;
+    margin-left: 11%;
+
+}
+
+.right-1 input {
+    width: 320px;
+    height: 60px;
+    padding-left: 23px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.right-1 input:nth-of-type(1) {
+    margin-right: 15px;
+}
+
+.right-1 input:nth-of-type(3) {
+    width: 660px;
+    height: 150px;
+}
+
+footer {
+    background-color: #3B3937;
+    padding: 79px 100px;
+    margin-top: 90px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul li img {
+    margin-bottom: 21px;
+}
+
+.footer ul li p {
+    margin-bottom: 17px;
+    color: var(--ffffff, #FFF);
+    font-family: Gilroy;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    opacity: 0.6;
+}
+
+.footer ul li h4 {
+    color: var(--ffffff, #FFF);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    margin-bottom: 38px;
+}
+
+.ppolitika {
+    margin-top: 55.5px;
+}
+
+.footer ul li:nth-of-type(4) {
+    display: flex;
+}
+
+.icon-1 {
+    transform: translateY(-11px);
+}
